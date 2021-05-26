@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Mulish:wght@200&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: white;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.nav-item {
+  padding: 30px;
+}
+.logo {
+  height: 130px;
+}
+.nav-item a {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: gray;
+}
+.nav-item a:hover {
+  color: red;
+  font-weight: bold;
+}
+.nav-item a:active {
+  color: red;
+  font-weight: bold;
+}
+.navbar-brand {
+  color: rebeccapurple;
+}

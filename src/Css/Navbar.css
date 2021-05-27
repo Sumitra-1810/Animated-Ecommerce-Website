@@ -21,6 +21,7 @@
   font-size: 1.5rem;
   text-transform: capitalize;
   color: gray;
+  font-weight: bold;
 }
 .nav-item a:hover {
   color: red;
@@ -30,6 +31,8 @@
   color: red;
   font-weight: bold;
 }
-.navbar-brand {
-  color: rebeccapurple;
+.menu-active
+{
+  color: red;
+  font-weight: bold;
 }

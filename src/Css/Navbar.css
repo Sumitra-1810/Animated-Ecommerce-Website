@@ -5,12 +5,10 @@
   box-sizing: border-box;
 }
 .navbar {
-  background-color:white;
+  background-color: white;
   position: fixed;
-  width:100%;
-  
- 
-  
+  width: 100%;
+  z-index: 10;
 }
 .navbar-nav {
   margin-left: auto;
@@ -36,8 +34,7 @@
   color: red;
   font-weight: bold;
 }
-.menu-active
-{
+.menu-active {
   color: red;
   font-weight: bold;
 }

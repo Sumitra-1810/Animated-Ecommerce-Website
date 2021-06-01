@@ -5,7 +5,7 @@ import { Redirect, Route, Switch } from "react-router";
 import Home from "./Home";
 import About from "./About";
 import Services from "./Services";
-import Contact from "./Contact";
+
 import Navbar from "./Navbar";
 import "../src/Css/App.css";
 
@@ -18,8 +18,7 @@ const App = () => {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/services" component={Services} />
-          <Route exact path="/contact" component={Contact} />
-          <Redirect to="/" />
+           <Redirect to="/" />
         </Switch>
         <About />
         <Services />

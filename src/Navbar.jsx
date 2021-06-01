@@ -8,8 +8,8 @@ const Navbar = () => {
     <>
       <div className="container-fluid nav_bg">
         <div className="row">
-          <div className="col-10 mx-auto">
-            <nav className="navbar navbar-expand-lg  bg-transparent">
+          <div className="col-12 mx-auto">
+            <nav className="navbar navbar-expand-lg  bg-grey">
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="#">
                   <img src={logo}className="logo" alt="smartworkers logo" />
@@ -32,29 +32,29 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                      <NavLink activeClassName="menu-active"
-                      exact  className="nav-link " to="/"
+                      <a activeClassName="menu-active"
+                      exact  className="nav-link " href="#home"
                       >
                         Home
-                      </NavLink>
+                      </a>
                     </li>
                     <li className="nav-item">
-                      <NavLink activeClassName="menu-active"
-                      className="nav-link" to="/about">
+                      <a activeClassName="menu-active"
+                      className="nav-link" href="#about">
                         About
-                      </NavLink>
+                      </a>
                     </li>
                     <li className="nav-item">
-                      <NavLink activeClassName="menu-active"
-                      className="nav-link" to="/services">
+                      <a activeClassName="menu-active"
+                      className="nav-link" href="#services">
                         Services
-                      </NavLink>
+                      </a>
                     </li>
                     <li className="nav-item">
-                      <NavLink activeClassName="menu-active"
-                      className="nav-link" to="/contact">
+                      <a activeClassName="menu-active"
+                      className="nav-link" href="#contact">
                         Contact us
-                      </NavLink>
+                      </a>
                     </li>
                   </ul>
                 </div>

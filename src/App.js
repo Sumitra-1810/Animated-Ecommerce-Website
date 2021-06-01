@@ -7,18 +7,23 @@ import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
 import Navbar from "./Navbar";
+import "../src/Css/App.css";
 
 const App = () => {
   return (
     <>
-    <Navbar />
-    <Switch>
-      <Route exact path='/' component={Home}/>
-      <Route exact path='/about' component={About}/>
-      <Route exact path='/services' component={Services}/>
-      <Route exact path='/contact' component={Contact}/>
-      <Redirect to='/' />
-      </Switch>
+      <section id="app">
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/services" component={Services} />
+          <Route exact path="/contact" component={Contact} />
+          <Redirect to="/" />
+        </Switch>
+        <About />
+        <Services />
+      </section>
     </>
   );
 };

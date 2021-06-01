@@ -9,6 +9,8 @@
   height: 70vh;
   margin-top: 190px;
   justify-content: center;
+  z-index: 2;
+  position: relative;
 }
 #home h1 {
   margin: 0 0 10px 0;

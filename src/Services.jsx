@@ -21,80 +21,80 @@ const Services = () => {
             <div className="col-10 mx-auto">
               <div className="row gy-4">
                 <div className="col-md-4 col-10 mx-auto mt-5">
-                  <div class="card">
+                  <div className="card">
                     <img
                       src={sd}
-                      class="card-img-top"
+                      className="card-img-top"
                       alt="..."
                       height="300px"
                     />
-                    <div class="card-body">
-                      <h2 class="card-title">Software Development</h2>
+                    <div className="card-body">
+                      <h2 className="card-title">Software Development</h2>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 col-10 mx-auto mt-5">
-                  <div class="card">
+                  <div className="card">
                     <img
                       src={app}
-                      class="card-img-top"
+                      className="card-img-top"
                       alt="..."
                       height="300px"
                     />
-                    <div class="card-body">
-                      <h2 class="card-title">App Development</h2>
+                    <div className="card-body">
+                      <h2 className="card-title">App Development</h2>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 col-10 mx-auto mt-5">
-                  <div class="card">
+                  <div className="card">
                     <img
                       src={game}
-                      class="card-img-top"
+                      className="card-img-top"
                       alt="..."
                       height="300px"
                     />
-                    <div class="card-body">
-                      <h2 class="card-title">Game Development</h2>
+                    <div className="card-body">
+                      <h2 className="card-title">Game Development</h2>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 col-10 mx-auto mt-5">
-                  <div class="card">
+                  <div className="card">
                     <img
                       src={wd}
-                      class="card-img-top"
+                      className="card-img-top"
                       alt="..."
                       height="300px"
                     />
-                    <div class="card-body">
-                      <h2 class="card-title">Web development</h2>
+                    <div className="card-body">
+                      <h2 className="card-title">Web development</h2>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 col-10 mx-auto mt-5">
-                  <div class="card">
+                  <div className="card">
                     <img
                       src={dm}
-                      class="card-img-top"
+                      className="card-img-top"
                       alt="..."
                       height="300px"
                     />
-                    <div class="card-body">
-                      <h2 class="card-title">Digital marketing</h2>
+                    <div className="card-body">
+                      <h2 className="card-title">Digital marketing</h2>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 col-10 mx-auto mt-5">
-                  <div class="card">
+                  <div className="card">
                     <img
                       src={gd}
-                      class="card-img-top"
+                      className="card-img-top"
                       alt="..."
                       height="300px"
                     />
-                    <div class="card-body">
-                      <h2 class="card-title">Graphic designing</h2>
+                    <div className="card-body">
+                      <h2 className="card-title">Graphic designing</h2>
                     </div>
                   </div>
                 </div>

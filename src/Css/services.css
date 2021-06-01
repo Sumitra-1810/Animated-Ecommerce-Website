@@ -4,6 +4,8 @@
   margin-top: 70px;
   justify-content: center;
   align-items: center;
+  z-index: 2;
+  position: relative;
 }
 #services h1 {
   font-size: 40px;

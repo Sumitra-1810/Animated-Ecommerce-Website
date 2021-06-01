@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-#about{
+#about {
   width: 100%;
   height: 70vh;
   margin-top: 70px;
   justify-content: center;
   align-items: center;
+  z-index: 2;
+  position: relative;
 }
 #about h1 {
   font-size: 40px;
   font-weight: 700;
-   color: #f85757;
+  color: #f85757;
   font-family: "Open Sans", sans-serif;
 }
 #about h2 {

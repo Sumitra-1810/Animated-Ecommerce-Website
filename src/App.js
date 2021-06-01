@@ -18,7 +18,7 @@ const App = () => {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/services" component={Services} />
-           <Redirect to="/" />
+          <Redirect to="/" />
         </Switch>
         <About />
         <Services />

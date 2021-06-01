@@ -1,9 +1,8 @@
 import React from "react";
 
 import aboutImg from "../src/images/about.svg";
-import "../src/Css/About.css"
+import "../src/Css/About.css";
 import Common from "./common";
-
 
 const About = () => {
   return (
@@ -18,17 +17,19 @@ const About = () => {
             <div className="col-10 mx-auto">
               <div className="row">
                 <div className="col-md-6 pt-3 px-auto pt-lg-0  order-1 order-lg-2 d-flex justify-content-center flex-column ">
-                  <h2>Your goal is our Achivement</h2>
+                  <h2>Your goal is our Achievement</h2>
                   <ul>
-                  <Common name="Smartworkers pvt.Ltd. was established in 2011 that provide scalable and flexible software solutions."/>
-                     <Common name="Our business portfolio is designed to deliver cost effective and end-to-end business solutions right from conceptualization to implementation with a focus on enhancing productivity and maximizing business performance."/>
-                    
-                    
+                    <Common name="Smartworkers pvt.Ltd. was established in 2011 that provide scalable and flexible software solutions." />
+                    <Common name="Our business portfolio is designed to deliver cost effective and end-to-end business solutions right from conceptualization to implementation with a focus on enhancing productivity and maximizing business performance." />
                   </ul>
-                  </div>
-                
+                </div>
+
                 <div className="col-lg-6 order-sm-2 order-lg-1 header-img">
-                  <img src={aboutImg} alt="image" className="img-fluid animation" />
+                  <img
+                    src={aboutImg}
+                    alt="image"
+                    className="img-fluid animation"
+                  />
                 </div>
               </div>
             </div>
